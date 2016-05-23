@@ -26,4 +26,6 @@
 
 @property (nonatomic, assign) NSInteger top;
 
+@property (nonatomic, strong) NSString *banner;
+
 @end

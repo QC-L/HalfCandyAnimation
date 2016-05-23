@@ -24,7 +24,11 @@
 
 - (void)setSub:(Sub *)sub {
     _sub = sub;
-    [self.myImageView sd_setImageWithURL:[NSURL URLWithString:sub.pic]];
+    if (!sub.pic) {
+        [self.myImageView sd_setImageWithURL:[NSURL URLWithString:sub.banner]];
+    } else {
+        [self.myImageView sd_setImageWithURL:[NSURL URLWithString:sub.pic]];
+    }
     self.myTitleView.text = sub.title;
 }
 
