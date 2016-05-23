@@ -1,9 +1,9 @@
 //
 //  NSString+MD5.m
-//  GitHubClient
+//  HalfCandyAnimation
 //
 //  Created by QC.L on 16/5/6.
-//  Copyright © 2016年 臧其龙. All rights reserved.
+//  Copyright © 2016年 QC.L. All rights reserved.
 //
 
 #import "NSString+MD5.h"

@@ -1,9 +1,9 @@
 //
 //  QCNetworkManager.h
-//  GitHubClient
+//  HalfCandyAnimation
 //
 //  Created by QC.L on 16/5/3.
-//  Copyright © 2016年 臧其龙. All rights reserved.
+//  Copyright © 2016年 QC.L. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
