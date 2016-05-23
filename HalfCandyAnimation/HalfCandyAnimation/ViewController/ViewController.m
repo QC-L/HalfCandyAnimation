@@ -91,6 +91,7 @@ static NSString * const kTableViewCell = @"cell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     HiveTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     SecondViewController *svc = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    svc.sub = [self.homePageModel.data[indexPath.section] sub][indexPath.row];
     svc.image = cell.myImageView.image;
     [self.navigationController pushViewController:svc animated:YES];
 }
